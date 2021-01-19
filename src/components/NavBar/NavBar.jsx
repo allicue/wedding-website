@@ -6,13 +6,13 @@ function NavBar(props) {
   return (
     <div id='navbar'>
       <div className='nav-logo'>
-        <Link to='/'><h1>Shawn & Allison</h1></Link>
+        <Link className='link' to='/'><h1 className='logo'>Shawn & Allison</h1></Link>
       </div>
 
-      <div className='nav-links'>
-        <Link to='/rsvp'><p>RSVP</p></Link>
-        <Link to='/FAQ'><p>FAQ</p></Link>
-        <Link to='/registry'><p>REGISTRY</p></Link>
+      <div className='nav-links-container'>
+        <Link className='link' to='/rsvp'><p className='nav-links'>RSVP</p></Link>
+        <Link className='link' to='/FAQ'><p className='nav-links'>FAQ</p></Link>
+        <Link className='link' to='/registry'><p className='nav-links'>REGISTRY</p></Link>
       </div>
 
     </div>

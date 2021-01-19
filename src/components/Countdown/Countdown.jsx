@@ -4,16 +4,12 @@ import './Countdown.css'
 function Countdown(props) {
 
   const calculateTimeLeft = () => {
-    // let year = new Date().getFullYear();
-    const difference = new Date(`2021-11-12`) - new Date();
+    const difference = new Date(`2021-10-1`) - new Date();
     let timeLeft = {};
 
     if (difference > 0) {
       timeLeft = {
         Days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        // Hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        // Minutes: Math.floor((difference / 1000 / 60) % 60),
-        // Seconds: Math.floor((difference / 1000) % 60),
       };
     }
     return timeLeft;
@@ -35,7 +31,7 @@ function Countdown(props) {
     }
 
     timerComponents.push(
-      <span className='countdown-text'>
+      <span className='header-subtext countdown-text'>
         {timeLeft[interval]} {interval}{" "} To Go!<br></br>
       </span>
     );
