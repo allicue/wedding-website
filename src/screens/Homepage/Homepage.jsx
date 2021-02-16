@@ -7,25 +7,29 @@ function Homepage(props) {
   return (
     <div id='homepage'>
       <header className='homepage-header'>
-          <h2 className='header-title'>We're Getting Married!</h2>
+        <h2 className='header-title'>We're Getting Married!</h2>
+        <h3 className='header-subtext'>FRIDAY, OCTOBER 1, 2021 <br></br>PROPSECT PARK BOATHOUSE | BROOKYLN, NY</h3>
+        <section id='countdown-container'>
           <Countdown />
-          <h3 className='header-subtext'>FRIDAY, OCTOBER 1, 2021 | BROOKLYN, NY</h3>
+        </section>
       </header>
 
       <body className='body-homepage'>
         <section className='column'>
-          <img alt='couple' className='img-1' src={HomepageImg1}/>
+          <img alt='couple' className='img-1' src={HomepageImg1} />
+          <h3 className='body-title'>Reception</h3>
+          
+          <p className="body-subtitle">6:30 PM - 11:00 PM</p>
+          <p className="homepage-text">Cocktails, Dinner and Dancing <br></br>to Immediately Follow!</p> 
+
         </section>
 
         <section className='column'>
-          <h3 className='body-title'>Ceremony & Reception</h3>
+          <h3 className='body-title'>Ceremony</h3>
           
-          <p className="homepage-text body-subtitle">FRIDAY, OCTOBER 1, 2021</p>
-          <p className="homepage-text">PROSPECT PARK BOATHOUSE</p>
-      
-          <p className="homepage-text">6:00 PM - 11:00 PM</p>
-          <br></br>
-          <p className="homepage-text">DRESS CODE: COCKTAIL ATTIRE</p>
+          <p className="body-subtitle">6:00 PM</p>
+          <p className="homepage-text">Doors Open at <b>5:30 PM</b> <br></br>for Welcome Drinks</p> 
+
         </section>
 
       </body>

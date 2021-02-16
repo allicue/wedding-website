@@ -32,7 +32,7 @@ function Countdown(props) {
 
     timerComponents.push(
       <span className='header-subtext countdown-text'>
-        {timeLeft[interval]} {interval}{" "} To Go!<br></br>
+        {timeLeft[interval]} {interval}{" "} to Go!<br></br>
       </span>
     );
   });

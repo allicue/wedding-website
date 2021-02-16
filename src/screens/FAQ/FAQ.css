@@ -1,0 +1,12 @@
+.other-header {
+  background-image: url('../../assets/header-img.jpeg');
+  background-size: cover;
+  background-position-y: 100%;
+  height: 300px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 100px;
+}

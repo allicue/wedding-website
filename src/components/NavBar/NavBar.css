@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.897);
+  background-color: rgba(17, 17, 17, 0.877);
   font-family: 'Open Sans', sans-serif;
   position: fixed;
   width: 100%;
@@ -11,8 +11,12 @@
 .logo {
   color: white;
   margin: 20px 20px;
-  font-family: 'Seaweed Script', cursive;
-  font-size: 40px;
+  /* font-family: 'Seaweed Script', cursive; */
+  font-size: 35px;
+  /* background: -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  */
 }
 
 .nav-links-container {
