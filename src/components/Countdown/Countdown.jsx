@@ -4,7 +4,7 @@ import './Countdown.css'
 function Countdown(props) {
 
   const calculateTimeLeft = () => {
-    const difference = new Date(`2021-10-1`) - new Date();
+    const difference = new Date(`2021-10-2`) - new Date();
     let timeLeft = {};
 
     if (difference > 0) {
