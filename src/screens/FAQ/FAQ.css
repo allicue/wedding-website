@@ -23,12 +23,24 @@
 
 .question {
   margin-top: 45px;
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .answer {
   list-style-type: none;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.line-break {
+  margin: 50px 0px;
+  border: none;
+  height: 2px;
+  color: rgb(17, 17, 17); 
+  background-color: rgb(17, 17, 17);
+}
+
+.contact-form-blurb {
+  padding-left: 40px;
 }

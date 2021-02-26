@@ -15,9 +15,10 @@
 
 .registry-button-container {
   display: flex;
+  width: 50%;
   flex-direction: row;
-  justify-content: space-around;
-  margin: 30px 0px;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .registry-button {

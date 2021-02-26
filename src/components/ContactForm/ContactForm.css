@@ -1,0 +1,31 @@
+.random-question-form {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.random-questions-input { 
+  padding: 12px;
+  margin: 6px 0 10px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  color: #000;
+  box-sizing: border-box;
+  border-radius: 2px; 
+  width: 70%;
+}
+
+.questions-button {
+  height: 60px;
+  width: 195px;
+  border: none;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%); 
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
