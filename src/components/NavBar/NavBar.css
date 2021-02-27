@@ -1,0 +1,38 @@
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(17, 17, 17, 0.877);
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  color: white;
+  margin: 20px 20px;
+  font-size: 35px;
+}
+
+.nav-links-container {
+  display: flex;
+  margin: 0px 20px;
+}
+
+.nav-links {
+  color: white;
+  padding-left: 15px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* MOBILE BREAKPOINT */
+@media only screen and (max-width: 610px) {
+
+  .logo {
+    font-size: 20px;
+  }
+
+}

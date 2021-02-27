@@ -1,0 +1,29 @@
+#footer {
+  width: 100%;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  min-height: 100px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 25px;
+  bottom: 0;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.questions-link {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.icon-text {
+  color: rgba(255, 255, 255, 0.384);
+  margin: 20px;
+}

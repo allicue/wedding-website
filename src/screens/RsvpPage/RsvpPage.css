@@ -1,0 +1,35 @@
+.rsvp-body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.rsvp-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.rsvp-label {
+  margin-top: 20px;
+}
+
+.rsvp-input {
+  padding: 12px;
+  margin: 6px 0 4px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  color: #000;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+/* MOBILE BREAKPOINT */
+@media only screen and (max-width: 610px) {
+
+  .rsvp-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+}
