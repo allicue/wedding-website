@@ -4,7 +4,7 @@
 
 .body-registry {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .body-text {
@@ -26,14 +26,22 @@
   width: 195px;
   border: none;
   border-radius: 2px;
-  background: -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%); 
+  background: -webkit-linear-gradient(
+    top,
+    rgba(213, 173, 109, 1) 0%,
+    rgba(213, 173, 109, 1) 26%,
+    rgba(226, 186, 120, 1) 35%,
+    rgba(163, 126, 67, 1) 45%,
+    rgba(145, 112, 59, 1) 61%,
+    rgba(213, 173, 109, 1) 100%
+  );
   color: white;
   font-size: 15px;
   font-weight: bold;
   margin: 0 auto;
   margin-top: 15px;
   margin-bottom: 25px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .registry-button:hover {
@@ -41,8 +49,16 @@
 }
 
 .random-links {
-  font-family: 'Open Sans', sans-serif;
-  background: -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+  font-family: "Open Sans", sans-serif;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(213, 173, 109, 1) 0%,
+    rgba(213, 173, 109, 1) 26%,
+    rgba(226, 186, 120, 1) 35%,
+    rgba(163, 126, 67, 1) 45%,
+    rgba(145, 112, 59, 1) 61%,
+    rgba(213, 173, 109, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -50,15 +66,13 @@
 
 /* TABLET BREAKPOINT */
 @media only screen and (max-width: 720px) {
-
   .body-text {
     width: 90%;
     margin: 0 auto;
   }
-  
+
   .registry-button-container {
     display: flex;
     flex-direction: column;
   }
-
 }
