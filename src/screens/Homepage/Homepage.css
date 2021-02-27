@@ -10,6 +10,7 @@
   font-family: 'Open Sans', sans-serif;
   padding-top: 100px;
   text-align: center;
+  width: 100%;
 }
 
 .header-title {
@@ -21,6 +22,7 @@
 }
 
 .header-subtext {
+  width: 90%;
   margin: 0 auto;
   font-size: 30px;
   margin-bottom: 5px;
@@ -73,4 +75,57 @@
 
 .homepage-text {
   font-size: 20px;
+}
+
+/* TABLET BREAKPOINT */
+@media only screen and (max-width: 780px) {
+
+  .img-1 {
+    height: 375px;
+    width: 325px;
+  }
+  
+  .img-2 {
+    margin: 100px 0px 100px 0px;
+  }
+  
+}
+
+/* MOBILE BREAKPOINT */
+@media only screen and (max-width: 610px) {
+
+  .header-title {
+    font-size: 60px;
+    margin-bottom: 50px;
+  }
+  
+  .header-subtext {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .body-homepage {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  
+  .column {
+    width: 100%;
+  }
+  
+  .body-title {
+    font-size: 50px;
+  }
+
+  .img-1 {
+    display: none;
+  }
+  
+  .body-subtitle {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
 }

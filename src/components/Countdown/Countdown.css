@@ -1,3 +1,11 @@
 .countdown-text {
   font-size: 25px;
 }
+
+/* MOBILE BREAKPOINT */
+@media only screen and (max-width: 600px) {
+  .countdown-text {
+    font-size: 20px;
+  }
+  
+}

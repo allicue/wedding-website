@@ -15,9 +15,9 @@
 
 .registry-button-container {
   display: flex;
-  width: 50%;
+  width: 80%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
@@ -46,4 +46,19 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+}
+
+/* TABLET BREAKPOINT */
+@media only screen and (max-width: 720px) {
+
+  .body-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .registry-button-container {
+    display: flex;
+    flex-direction: column;
+  }
+
 }

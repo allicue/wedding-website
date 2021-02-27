@@ -44,3 +44,12 @@
 .contact-form-blurb {
   padding-left: 40px;
 }
+
+/* MOBILE BREAKPOINT */
+@media only screen and (max-width: 610px) {
+
+  #body-faq {
+    width: 90%;
+  }
+
+}
