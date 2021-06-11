@@ -6,6 +6,8 @@ import Footer from '../src/components/Footer/Footer'
 import FAQ from './screens/FAQ/FAQ';
 import RsvpPage from './screens/RsvpPage/RsvpPage';
 import Registry from './screens/Registry/Registry';
+import Travel from './screens/Travel/Travel';
+
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
 
         <Route path='/registry'>
           <Registry />
+        </Route>
+        
+        <Route path='/travel'>
+          <Travel />
         </Route>
 
       </Switch>

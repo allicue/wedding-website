@@ -8,7 +8,7 @@ function Homepage(props) {
   return (
     <div id='homepage'>
       <header className='homepage-header'>
-        <h2 className='header-title'>We're getting married!</h2>
+        <h2 className='header-title'>We're Getting Married!</h2>
         <h3 className='header-subtext'>FRIDAY, OCTOBER 1, 2021 <br></br>PROPSECT PARK BOATHOUSE | BROOKYLN, NY</h3>
         <section id='countdown-container'>
           <Countdown />

@@ -20,9 +20,9 @@
 
 .FAQ-subtitle {
   padding-left: 40px;
-  margin-top: 45px;
+  margin-top: 30px;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   list-style-type: none;
   text-transform: uppercase;
   text-align: center;
@@ -31,7 +31,12 @@
 .FAQ-body-text {
   padding-left: 40px;
   margin-top: 10px;
-  font-size: 18px;
+  line-height: 28px;
+  font-size: 17px;
+}
+
+#covid-policy {
+  font-weight: 600;
 }
 
 .list-of-questions {
@@ -50,6 +55,7 @@
   list-style-type: none;
   margin-top: 10px;
   font-size: 18px;
+  line-height: 28px;
 }
 
 .line-break {
@@ -69,6 +75,15 @@
 
   #body-faq {
     width: 90%;
+  }
+
+  .FAQ-subtitle {
+    padding-left: 0px;
+  }
+
+  .FAQ-body-text {
+    padding-left: 0px;
+
   }
 
   .question {
