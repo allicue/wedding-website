@@ -33,6 +33,10 @@
 /* MOBILE BREAKPOINT */
 @media only screen and (max-width: 610px) {
 
+  .random-question-form {
+    padding-left: 0px;
+  }
+
   .random-questions-input { 
     width: 100%;
   }

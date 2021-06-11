@@ -6,6 +6,7 @@
   color: black;
   display: flex;
   flex-direction: column;
+  text-align: center;
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
   padding-top: 100px;
@@ -17,6 +18,27 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.FAQ-subtitle {
+  padding-left: 40px;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.FAQ-body-text {
+  padding-left: 40px;
+  margin-top: 10px;
+  line-height: 28px;
+  font-size: 17px;
+}
+
+#covid-policy {
+  font-weight: 600;
+}
+
 .list-of-questions {
   font-weight: bold;
 }
@@ -25,12 +47,15 @@
   margin-top: 45px;
   font-weight: 600;
   font-size: 18px;
+  list-style-type: none;
+  text-transform: uppercase;
 }
 
 .answer {
   list-style-type: none;
   margin-top: 10px;
   font-size: 18px;
+  line-height: 28px;
 }
 
 .line-break {
@@ -50,6 +75,31 @@
 
   #body-faq {
     width: 90%;
+  }
+
+  .FAQ-subtitle {
+    padding-left: 0px;
+  }
+
+  .FAQ-body-text {
+    padding-left: 0px;
+
+  }
+
+  .question {
+    padding-left: 0px;
+  }
+
+  ul {
+    padding: 0px;
+  }
+
+  .contact-form-blurb {
+    padding-left: 0px;
+  }
+
+  .faq-header-title {
+    font-size: 45px;
   }
 
 }

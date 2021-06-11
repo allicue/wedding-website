@@ -4,7 +4,9 @@
   color: white;
   min-height: 100px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Cinzel', serif;
+
   padding-top: 25px;
   bottom: 0;
 }

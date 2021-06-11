@@ -1,0 +1,35 @@
+#travel-body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+}
+
+.travel-subtitle {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.travel-text {
+  font-size: 18px;
+  padding-bottom: 10px;
+  line-height: 28px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* MOBILE BREAKPOINT */
+@media only screen and (max-width: 610px) {
+
+  .img-map {
+    width: 90%;
+    height: 90%;
+  }
+
+}
