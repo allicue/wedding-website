@@ -7,31 +7,34 @@ function FAQ(props) {
   return (
     <div id='faq-page'>
       <header className='other-header'>
-          <h2 className='header-title'>FAQ</h2>
+          <h2 className='header-title faq-header-title'>Frequently Asked Questions & Coronavirus Updates</h2>
       </header>
       <body id='body-faq'>
+        <p className="FAQ-subtitle">*IMPORTANT NOTE*</p>
+        <p className='FAQ-body-text'>Currently per New York State guidelines, <b>all guests are required to complete a
+        contact tracing form as well as submit proof of a vaccination card (2nd dose must be completed
+        2 weeks prior to October 1st), a negative PCR test within 72 hours, or a negative rapid test within 6 hours from
+        the start of the event and continue to wear a mask while not eating or drinking. </b> 
+        Please continue to check back here for any updates as we get closer to the date!
+          </p>
+        
+        <p className="FAQ-subtitle">FAQ</p>
         <ul>
-          <li className='question'>Can I bring my kids to the wedding?</li>
-          <li className='answer'>Unfortunetly due to budget and COVID restrictions, we respectfully request no children 17 or under attend the wedding. We hope you understand and are still able to make it!</li>
+          <li className='question'>Can I bring my children to the wedding?</li>
+          <li className='answer'>Unfortunetly due to venue and COVID restrictions, we are only able to invite children in our immediate families who are 13 and over to the wedding. We hope you understand and are still able to make it!</li>
         </ul>
-
+        <ul>
+          <li className='question'>Can I bring guests/ +1's not noted on my invitation?</li>
+          <li className='answer'>We are only able to accommodate guests formally listed on the RSVP card you received due to limited capacity.</li>
+        </ul>
         <ul>
           <li className='question'>Is parking available?</li>
-          <li className='answer'>Yes, limited parking is available by entering on Lincoln Road and Ocean Avenue. Click <a className='random-links' rel="noreferrer" target='_blank' href={Map}>here</a> for a map to see where the parking lot is located.</li>
+          <li className='answer'>Yes, limited parking is available by entering the park on Willink Drive. Click <a className='random-links' rel="noreferrer" target='_blank' href={Map}>here</a> for a map to see where the parking lot is located. If the lot is full, street parking is available right outside Prospect Park on Ocean Avenue.</li>
         </ul>
 
         <ul>
-          <li className='question'>What is the dress code?</li>
-          <li className='answer'>Cocktail attire. For men, that means a suit and tie and for women, a nice dress or dressy pantsuit/jumpsuit.</li>
-        </ul>
-
-        <ul>
-          <li className='question'>How are you planning for COVID?</li>
-          <li className='answer'>To ensure the safety of our guests and vendors, we are following current NYS event guidelines requiring that <b>all guests 
-              must bring a negative COVID test (PCR or antigen) taken within 72 hours of the wedding</b> and wear a mask while not eating or drinking. To see 
-              more information on New York guidelines, click <a className='random-links' rel="noreferrer" target='_blank'
-              href='https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/Indoor_and_Outdoor_Food_Services_Detailed_Guidelines.pdf'>here</a>.
-          </li>
+          <li className='question'>Is there a dress code?</li>
+          <li className='answer'>Yes! Please come wearing semi-formal attire. For men, that means a suit and tie, and for women, a nice dress (can be maxi, midi or knee length) or an elevated chic pantsuit/jumpsuit. Feel free to wear any color you'd like (other than white) and no jeans or sneakers please!</li>
         </ul>
 
         <ul>

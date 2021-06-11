@@ -6,6 +6,7 @@
   color: black;
   display: flex;
   flex-direction: column;
+  text-align: center;
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
   padding-top: 100px;
@@ -17,6 +18,22 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.FAQ-subtitle {
+  padding-left: 40px;
+  margin-top: 45px;
+  font-weight: 600;
+  font-size: 22px;
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.FAQ-body-text {
+  padding-left: 40px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
 .list-of-questions {
   font-weight: bold;
 }
@@ -25,6 +42,8 @@
   margin-top: 45px;
   font-weight: 600;
   font-size: 18px;
+  list-style-type: none;
+  text-transform: uppercase;
 }
 
 .answer {
@@ -50,6 +69,22 @@
 
   #body-faq {
     width: 90%;
+  }
+
+  .question {
+    padding-left: 0px;
+  }
+
+  ul {
+    padding: 0px;
+  }
+
+  .contact-form-blurb {
+    padding-left: 0px;
+  }
+
+  .faq-header-title {
+    font-size: 45px;
   }
 
 }

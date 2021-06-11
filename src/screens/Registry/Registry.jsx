@@ -22,7 +22,7 @@ function Registry(props) {
             <button className='registry-button'>CRATE & BARREL</button>
           </a>
         </section>
-        <h3 className='body-text'>Thank you in advance for helping us turn our apartment into a home!</h3>
+        <h3 className='body-text'>Thank you in advance!</h3>
       </body>
     </div>
   );

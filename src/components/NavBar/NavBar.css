@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   background-color: rgba(17, 17, 17, 0.877);
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Cinzel', serif;
   position: fixed;
   width: 100%;
 }
