@@ -42,9 +42,7 @@ function RsvpPage(props) {
   setOthersInParty("");
   setFoodRestrictions("");
   setQuestionsComments("");
-    
-  history.push('/')
-  
+      
   alert('Thank you for submitting your RSVP!')  
 
   };
