@@ -38,7 +38,7 @@ function FAQ(props) {
 
         <ul>
           <li className='question'>Is there a dress code?</li>
-          <li className='answer'>Yes! Please come wearing cocktail attire. For men, that means a suit and tie, and for women, a nice dress
+          <li className='answer'>Yes! Please come wearing semi-formal attire. For men, that means a suit and tie, and for women, a nice dress
           (can be maxi, midi or knee length) or an elevated chic pantsuit/jumpsuit. Feel free to wear any color you'd like (other than white)
           and no jeans or sneakers please!</li>
         </ul>
