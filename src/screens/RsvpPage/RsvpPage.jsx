@@ -52,7 +52,7 @@ function RsvpPage(props) {
           <h2 className='header-title'>RSVP</h2>
         </header>
      
-        <body className='rsvp-body'>
+        <section className='rsvp-body'>
           <h3 className='body-text'>We look forward to seeing you! Please fill out the form below by September 1st.</h3>
           <form className="rsvp-form" onSubmit={handleSubmit} >
             <label className='rsvp-label' htmlFor="firstName">First Name:*</label>
@@ -83,12 +83,12 @@ function RsvpPage(props) {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <label className='rsvp-label' htmlFor="rsvp">Will you be attending?*</label>
+            {/* <label className='rsvp-label' htmlFor="rsvp">Will you be attending?*</label>
             <select className='rsvp-input' name="rsvp" id='rsvp' defaultValue='default' onChange={(e) => setRsvp(e.target.value)}>
               <option disabled value="default">--Select Response--</option>
               <option value="yes">Yes, I will be attending</option>
               <option value="no">Regrets, I will not be attending</option>
-            </select>
+            </select> */}
             
             <label className='rsvp-label' htmlFor="othersInParty">Names of Guests in Your Party</label>
             <input
@@ -121,7 +121,7 @@ function RsvpPage(props) {
 
             <button className='registry-button' type="submit">SUBMIT RSVP</button>
           </form>
-        </body>
+        </section>
 
       </div>
     );
