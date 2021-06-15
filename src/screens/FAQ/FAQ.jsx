@@ -38,7 +38,7 @@ function FAQ(props) {
 
         <ul>
           <li className='question'>Is there a dress code?</li>
-          <li className='answer'>Yes! Please come wearing semi-formal attire. For men, that means a suit and tie, and for women, a nice dress
+          <li className='answer'>Yes! Please come wearing formal attire. For men, that means a suit and tie, and for women, a nice dress
           (can be maxi, midi or knee length) or an elevated chic pantsuit/jumpsuit. Feel free to wear any color you'd like (other than white)
           and no jeans or sneakers please!</li>
         </ul>
@@ -46,7 +46,7 @@ function FAQ(props) {
         <ul>
           <li className='question'>Where can I take a COVID test?</li>
           <li className='answer'>To find a testing location near you in NYC,
-          click<a className='random-links' target='_blank' rel="noreferrer" href="https://www1.nyc.gov/site/coronavirus/get-tested/covid-19-testing.page"> here</a>
+          click<a className='random-links' target='_blank' rel="noreferrer" href="https://www1.nyc.gov/site/coronavirus/get-tested/covid-19-testing.page"> here </a>
           and follow the prompts.</li>
         </ul>
 
