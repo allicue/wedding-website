@@ -81,7 +81,7 @@ function RsvpPage(props) {
               required
               name="email"
               type="text"
-              placeholder="Please provide an email from one person in your party for event updates/reminders."
+              placeholder="Please provide an email from one person in your party."
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -92,12 +92,12 @@ function RsvpPage(props) {
               <option value="no">Regrets, I will not be attending</option>
             </select>
             
-            <label className='rsvp-label' htmlFor="othersInParty">Names of Guests in Your Party</label>
+            <label className='rsvp-label' htmlFor="othersInParty">Names of Guests in Your Party Attending</label>
             <input
               className='rsvp-input'
               name="othersInParty"
               type="text"
-              placeholder="Please provide full names"
+              placeholder="Please provide full names."
               value={othersInParty}
               onChange={(e) => setOthersInParty(e.target.value)}
             />
@@ -113,10 +113,10 @@ function RsvpPage(props) {
         
             <label className='rsvp-label' htmlFor="questionsComments">Questions or Comments?</label>
             <input
-              className='rsvp-input'
+              className='rsvp-input questions-comments-input'
               name="questionsComments"
               type="text"
-              placeholder="Ask a question or leave a note"
+              placeholder="Ask a question, tell us a song you want to hear, or leave a note!"
               value={questionsComments}
               onChange={(e) => setQuestionsComments(e.target.value)}
             />

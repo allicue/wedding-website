@@ -21,7 +21,7 @@ function FAQ(props) {
         <p className="FAQ-subtitle">FAQ</p>
         <ul>
           <li className='question'>Can I bring my children to the wedding?</li>
-          <li className='answer'>Unfortunetly due to venue and COVID restrictions, we are only able to invite children in our immediate
+          <li className='answer'>Unfortunetly due to venue and COVID restrictions, we are only able to invite children in our 
           families who are 13 and over to the wedding. We hope you understand and are still able to make it!</li>
         </ul>
         <ul>
@@ -38,7 +38,7 @@ function FAQ(props) {
 
         <ul>
           <li className='question'>Is there a dress code?</li>
-          <li className='answer'>Yes! Please come wearing formal attire. For men, that means a suit and tie, and for women, a nice dress
+          <li className='answer'>Yes! Please come wearing cocktail attire. For men, that means a suit and tie, and for women, a nice dress
           (can be maxi, midi or knee length) or an elevated chic pantsuit/jumpsuit. Feel free to wear any color you'd like (other than white)
           and no jeans or sneakers please!</li>
         </ul>

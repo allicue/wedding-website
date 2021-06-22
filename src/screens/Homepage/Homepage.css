@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Cinzel', serif;
   padding-top: 100px;
   text-align: center;
@@ -26,6 +25,7 @@
   width: 90%;
   margin: 0 auto;
   font-size: 30px;
+  font-weight: 600;
   margin-bottom: 5px;
   color: rgb(255, 255, 255);
 }
@@ -34,7 +34,7 @@
   margin: 0 auto;
 }
 
-.body-homepage {
+.schedule-homepage {
   display: flex;
   margin-top: 50px;
   text-align: center;
@@ -51,6 +51,7 @@
   font-size: 70px;
   margin-top: 30px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .reception-title {
@@ -82,6 +83,52 @@
   margin: 0 auto;
 }
 
+.wedding-party-section {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.712)), url(../../assets/boathouse-background-img.jpeg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.wedding-party {
+  display: flex;
+  margin-top: 0px;
+  text-align: center;
+  flex-direction: row;
+  font-family: 'Open Sans', sans-serif;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.wedding-party-header {
+  padding: 30px 0px 0px 0px;
+  margin-bottom: 0px;
+}
+
+.wedding-party-column {
+  width: 50%;
+  padding: 0% 5% 5% 5%;
+}
+
+.wedding-party-titles {
+  font-family: 'Cinzel', serif;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.wedding-party-names {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* .bridesmaids-column {
+  width: 50%;
+}
+
+.groomsmen-column {
+  width: 50%;
+} */
+
 /* TABLET BREAKPOINT */
 @media only screen and (max-width: 780px) {
 
@@ -110,7 +157,7 @@
     margin-bottom: 10px;
   }
 
-  .body-homepage {
+  .schedule-homepage {
     display: flex;
     flex-direction: column-reverse;
     margin: 0 auto;
@@ -134,5 +181,23 @@
     font-size: 30px;
     font-weight: 400;
   }
+
+  .wedding-party {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;  
+  }
+
+  .wedding-party-header {
+    padding: 40px 0px 10px 0px;
+  }
+
+  .wedding-party-titles {
+    font-size: 20px;
+  }
   
+  .wedding-party-names {
+    font-size: 18px;
+  }
+
 }

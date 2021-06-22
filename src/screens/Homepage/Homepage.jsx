@@ -15,8 +15,9 @@ function Homepage(props) {
         </section>
       </header>
 
-      <body className='body-homepage'>
+      <body>
 
+        <div className='schedule-homepage'>
         <section className='column'>
           <img alt='couple' className='img-1' src={HomepageImg1} />
 
@@ -32,6 +33,33 @@ function Homepage(props) {
 
           <img alt='couple' className='img-1 img-2' src={HomepageImg2} />
         </section>
+        </div>
+       
+
+        <section className='wedding-party-section'>
+        
+          <h2 className='body-title wedding-party-header'>Wedding Party</h2>
+            
+          <div className='wedding-party'>
+          <div className='wedding-party-column bridesmaids-column'>
+            <h3 className='wedding-party-titles'>Maid of Honor</h3>
+            <p className='wedding-party-names'>Sarayah Carver</p>
+            <h3 className='wedding-party-titles'>Flower Girl</h3>
+            <p className='wedding-party-names'>Olivia Richards</p>
+            <h3 className='wedding-party-titles'>Ring Bearer</h3>
+            <p className='wedding-party-names'>Emily Richards</p>
+          </div>
+          <div className='wedding-party-column groomsmen-column'>
+            <h3 className='wedding-party-titles'>Best Men</h3>
+            <p className='wedding-party-names'>Matt Kramer</p>
+            <p className='wedding-party-names'>Eric Muniz</p>
+            <p className='wedding-party-names'>Daniel Smith</p>
+            <p className='wedding-party-names'>Matthew Smith</p>
+            </div>
+          </div>
+          
+        </section>
+
       </body>
 
     </div>
