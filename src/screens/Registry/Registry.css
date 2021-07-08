@@ -9,6 +9,8 @@
 
 .body-text {
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
   font-weight: 600;
   padding: 50px 0px;
 }
@@ -19,6 +21,7 @@
   flex-direction: row;
   justify-content: space-around;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .registry-button {
@@ -66,11 +69,6 @@
 
 /* TABLET BREAKPOINT */
 @media only screen and (max-width: 720px) {
-  .body-text {
-    width: 90%;
-    margin: 0 auto;
-  }
-
   .registry-button-container {
     display: flex;
     flex-direction: column;
