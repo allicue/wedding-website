@@ -9,6 +9,7 @@ function RsvpPage(props) {
   const [email, setEmail] = useState("");
   const [rsvp, setRsvp] = useState("");
   const [othersInParty, setOthersInParty] = useState("");
+  const [othersInPartyNotAttending, setOthersInPartyNotAttending] = useState("");
   const [foodRestrictions, setFoodRestrictions] = useState("");
   const [questionsComments, setQuestionsComments] = useState("");
 
@@ -20,6 +21,7 @@ function RsvpPage(props) {
       email,
       rsvp,
       othersInParty,
+      othersInPartyNotAttending,
       foodRestrictions,
       questionsComments,
     };
@@ -40,6 +42,7 @@ function RsvpPage(props) {
     setEmail("");
     setRsvp("");
     setOthersInParty("");
+    setOthersInPartyNotAttending("");
     setFoodRestrictions("");
     setQuestionsComments("");
 
@@ -100,6 +103,15 @@ function RsvpPage(props) {
               placeholder="Please provide full names."
               value={othersInParty}
               onChange={(e) => setOthersInParty(e.target.value)}
+            />
+
+            <label className='rsvp-label' htmlFor="othersInPartyNotAttending">Names of Guests in Your Party Not Attending</label>
+            <input
+              className='rsvp-input'
+              name="othersInPartyNotAttending"
+              type="text"
+              value={othersInPartyNotAttending}
+              onChange={(e) => setOthersInPartyNotAttending(e.target.value)}
             />
             
             <label className='rsvp-label' htmlFor="foodRestrictions">Any Food Allergies or Restrictions?</label>
