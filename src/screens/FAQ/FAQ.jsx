@@ -13,10 +13,11 @@ function FAQ(props) {
       <body id='body-faq'>
         <p className="FAQ-subtitle">*COVID-19 NOTE*</p>
         <p className='FAQ-body-text'>
-          Currently per New York State guidelines, <span id='covid-policy'> guests are no longer required to submit proof of vaccination
-            or a negative COVID test</span> to attend an in-person event.
-
-          Please continue to check back here for any updates as we get closer to the date!
+          Currently per New York City guidelines, <span id='covid-policy'> all guests must be vaccinated and provide
+            proof </span> to attend an event. Closer to the wedding date, we will send a form out to all attendees
+          where you can upload your vaccination documents for us to send to the venue.
+          If you decide you are not getting vaccinated, kindly RSVP and let us know that you are no longer able to attend. Thank you!
+          
           {/* Currently per New York State guidelines, <span id='covid-policy'>all guests are required to complete a
         contact tracing form as well as submit proof of a vaccination card (2nd dose must be completed
         2 weeks prior to October 1st), a negative PCR test within 72 hours, or a negative rapid test within 6 hours from
