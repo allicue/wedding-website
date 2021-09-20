@@ -13,17 +13,12 @@ function FAQ(props) {
       <body id='body-faq'>
         <p className="FAQ-subtitle">*COVID-19 NOTE*</p>
         <p className='FAQ-body-text'>
-          Currently per New York City guidelines, <span id='covid-policy'> all guests must be vaccinated and provide
-            proof </span> to attend an event. Closer to the wedding date, we will send a form out to all attendees
-          where you can upload your vaccination documents for us to send to the venue.
-          If you decide you are not getting vaccinated, kindly RSVP and let us know that you are no longer able to attend. Thank you!
-          
-          {/* Currently per New York State guidelines, <span id='covid-policy'>all guests are required to complete a
-        contact tracing form as well as submit proof of a vaccination card (2nd dose must be completed
-        2 weeks prior to October 1st), a negative PCR test within 72 hours, or a negative rapid test within 6 hours from
-        the start of the event and continue to wear a mask while not eating or drinking. </span> 
-        Please continue to check back here for any updates as we get closer to the date! */}
-          </p>
+          Currently per New York City guidelines, <span id='covid-policy'> all guests must have at least one dose of the COVID-19 vaccine and provide
+          proof </span> to attend an event. If you haven't already, please fill out the following form <a className='random-links' rel="noreferrer"
+          target='_blank' href="https://docs.google.com/forms/d/1ybpg58byTnFYVXgSwVGRUoWlNdEb_zAl8G4yJx-Arv8/viewform?edit_requested=true">here </a>
+          where you can upload your vaccination documents for us to send to the venue. Please make sure you and everyone in your party has filled it
+          out. If you decide you are not getting vaccinated, kindly RSVP and let us know that you are no longer able to attend. Thank you!
+        </p>
         
         <p className="FAQ-subtitle">FAQ</p>
         <ul>
@@ -68,13 +63,6 @@ function FAQ(props) {
           <li className='answer'>Yes, it is. Please plan on getting to the venue about a half hour earlier to give yourself time to make your way through
             the park as we plan on starting the ceremony promptly at 6:00 PM.</li>
         </ul>
-
-        {/* <ul>
-          <li className='question'>Where can I take a COVID test?</li>
-          <li className='answer'>To find a testing location near you in NYC,
-          click<a className='random-links' target='_blank' rel="noreferrer" href="https://www1.nyc.gov/site/coronavirus/get-tested/covid-19-testing.page"> here </a>
-          and follow the prompts.</li>
-        </ul> */}
 
         <hr className='line-break'></hr>
         <p className='question contact-form-blurb'>Didn't see your question above? Submit the form below and someone will get back to you soon!</p>

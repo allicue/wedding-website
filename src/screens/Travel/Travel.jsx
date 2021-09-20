@@ -20,9 +20,10 @@ function Travel(props) {
         Tunnel on the right- walk through the tunnel and continue straight to the Boathouse.</p>
         
         <h3 className='travel-subtitle'>By Driving</h3>
-        <p className='travel-text'>Make your way to the Willink Drive & Flatbush Avenue Entrance: <b>40.66377620318476, -73.9630156760817</b>.
-        You can enter the park here and a wayfinder will direct you to the parking lot inside Prospect Park. Please note that parking is
-        limited and if the lot is full, street parking is available near the Lincoln Road & Ocean Avenue Entrance: <b>101 Ocean Ave, Brooklyn, NY 11225</b>.</p>
+        <p className='travel-text'>If you're driving, set your GPS location to enter the Willink Drive & Flatbush Avenue Entrance: <b>40.66377620318476, -73.9630156760817</b>.
+          Please have the wedding invitation or <a className='random-links' rel="noreferrer" target='_blank' href={Map}> electronic direction card here</a> or below to show to staff who
+          will direct you to the guest parking lot. From there, you can follow the path to the boathouse. Please note that parking is limited and if the lot is full, street parking is available
+          near the Lincoln Road & Ocean Avenue Entrance: <b>101 Ocean Ave, Brooklyn, NY 11225</b>.</p>
       
         <h3 className='travel-subtitle' id='map-section'>Map</h3>
         <p className='travel-text'>Please see a map of the venue and entrance locations below or by clicking
